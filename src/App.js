@@ -6,44 +6,47 @@ import LoginForm from './components/LoginForm'
 import Home from './components/Home'
 import { Route, Routes} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Dashboard from './components/Dashboard'
 //rfce = create starter component
 //'react-router-dom' router import path
 
+// Here we are getting the code from our url which is used for our authorization we convert this code to a token
+const code = new URLSearchParams(window.location.search).get('code')
+
+
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <Routes> 
-      <Route 
-      path='/sign-up'
-      element={<SignUp />} /> 
-      
-      <Route 
-      path='/login'
-      element={<LoginForm/>} /> 
-     
-      <Route 
-      path='/'
-      element={<LandingPage />} />
-     
-      <Route 
-      path='/homepage' 
-      element={<Home />}
-      />
-      </Routes>
-      
+      code ? <Home code={code} /> : <LandingPage />
+    
 
-      
-     
-      
-     
+    // <div className="App">
+    //    <header className="App-header">
 
-
-       {/* <LandingPage />
-       <SignUp />
-       <LoginForm /> */}
-      </header>
-    </div>
+    //   <Routes> 
+    //   <Route 
+    //    path='/sign-up'
+    //    element={<SignUp />} /> 
+      
+    //    <Route 
+    //    path='/login'
+    //    element={<LoginForm/>} /> 
+     
+    //    <Route 
+    //    path='/'
+    //    element={<LandingPage />} />
+     
+    //    <Route 
+    //    path='/homepage' 
+    //    element={<Home />}
+    //    />
+    //    </Routes>
+      
+    //    /* <LandingPage />
+    //    <SignUp />
+    //    <LoginForm /> */
+    //    </header>
+    //  </div>
   );
 }
 
