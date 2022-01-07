@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+
+.App {
+    place-items: center center;
+}
+
+
+body {
+    display: grid;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: #fbfbfb;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('https://products.ls.graphics/mesh-gradients/images/06.-Wisteria_1.jpg');
+    background-size: cover;
+}
+ 
+#landing-page {
+    place-items: center center;    // horizontally in the center & vertically in the center
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.landingpage-title {
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: -250px;
+    color: white;
+    text-shadow: 8px 2px 15px rgb(206, 142, 231);
+}
+
+.landingpage-subtitle {
+    font-size: 16px;
+    margin-top: -400px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landingpage-logo {
+    margin-top: 200px;
+    position: flex;
+}
+
+#loginpage-btn {
+    margin-top: -400px;
+}
+
+
+#login-form {
+    place-items: center center;    // horizontally in the center & vertically in the center
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#main-loginform {
+    max-width: 330px;
+}
+
+
+.navbar {
+    background-color: black
+    
+}
+
+.nav-link {
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 8px;
+}
+
+.card .badge {
+    font-size: 16px;
+}
+  
+.card .text-secondary {
+    line-height: 25px;
+    font-size: 25px;
+  }
+  
+.card button {
+    font-size: 18px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.card button:hover {
+    background-color: #282828; 
+    border: 2px solid #282828;
+    color: white;
+}
+  
+.toast.show {
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+    z-index: 10;
+}
+
+
+.audio-cont {
+    place-items: center center;    // horizontally in the center & vertically in the center
+    margin-bottom: 20px;
+    position: grid;
+    margin-left: 18%;
+    padding-right: 30px;
+}
+
+.card-div {
+    padding-top: 20px;
+    padding-bottom: -30px;
+}

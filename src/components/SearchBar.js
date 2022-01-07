@@ -1,20 +1,20 @@
 import React, {useState} from 'react'
-import SearchPage from './SearchPage'
 
-function SearchBar() {
-    const [searchInput, setSearchInput] = useState('')
 
-    const handleSearchPageView = (e) => {
-        setSearchInput(e.target.value)
+function SearchBar({ setSearch }) {
+    
+    const handleSearch = (e) => {
         console.log(e.target.value)
+         setSearch(e.target.value)
     }
+
     return (
         <div>
-            <input className='search' placeholder='Search Songs' onChange={handleSearchPageView}></input>
-            <button className='search' >Search</button>
-            {searchInput ? <SearchPage /> : null}
+            <input className='search' 
+            placeholder='Search Songs' 
+            onChange={handleSearch}></input>
         </div>
     )
 }
 
-export default SearchBar
+export default SearchBar;

@@ -1,0 +1,319 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Lack of Color",
+      "image": "Images/folder.jpg",
+      "artist": "Death Cab for Cutie",
+      "album": "Transatlantacism",
+      "notes": "",
+      "playback": "music/11 A Lack of Color.m4a"
+    },
+    {
+      "id": 2,
+      "title": "Territorial Pissings",
+      "image": "Images/folder-1.jpg",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "notes": "",
+      "playback": "music/07 Territorial Pissings.m4a"
+    },
+    {
+      "id": 3,
+      "title": "Imagine",
+      "image": "Images/folder-2.jpg",
+      "artist": "John Lennon",
+      "album": "Single",
+      "notes": "",
+      "playback": "music/01 Imagine - Remastered 2010.m4a"
+    },
+    {
+      "id": 4,
+      "title": "Billie Jean",
+      "image": "Images/folder-3.jpg",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "notes": "",
+      "playback": "music/06 Billie Jean.m4a"
+    },
+    {
+      "id": 5,
+      "title": "Bohemian Rhapsody",
+      "image": "Images/folder-5.jpg",
+      "artist": "Queen",
+      "album": "A Night at the Opera",
+      "notes": "",
+      "playback": "music/09 Bohemian Rhapsody.m4a"
+    },
+    {
+      "id": 6,
+      "title": "Mother",
+      "image": "Images/folder-6.jpg",
+      "artist": "Idles",
+      "album": "Brutalism",
+      "notes": "",
+      "playback": "music/03 Mother.m4a"
+    },
+    {
+      "id": 7,
+      "title": "My Head Hurts",
+      "image": "Images/folder-7.jpg",
+      "artist": "Wavves",
+      "album": "V",
+      "notes": "",
+      "playback": "music/05 My Head Hurts.m4a"
+    },
+    {
+      "id": 8,
+      "title": "Hotel California",
+      "image": "Images/folder-8.jpg",
+      "artist": "The Eagles",
+      "album": "Hotel California",
+      "notes": "",
+      "playback": "music/01 Hotel California - 2013 Remaster.m4a"
+    },
+    {
+      "id": 9,
+      "title": "West Coast",
+      "image": "Images/folder-9.jpg",
+      "artist": "Fidlar",
+      "album": "Too",
+      "notes": "",
+      "playback": "music/03 West Coast.m4a"
+    },
+    {
+      "id": 10,
+      "title": "I Will Always Love You",
+      "image": "Images/folder-10.jpg",
+      "artist": "Whitney Houston",
+      "album": "Single",
+      "notes": "",
+      "playback": "music/01 I Will Always Love You.m4a"
+    },
+    {
+      "id": 11,
+      "title": "Special Affair",
+      "image": "Images/folder-11.jpg",
+      "artist": "The Internet",
+      "album": "Ego Death",
+      "notes": "",
+      "playback": "music/08 Special Affair.m4a"
+    },
+    {
+      "id": 12,
+      "title": "What's Goin' On",
+      "image": "Images/folder-12.jpg",
+      "artist": "Marvin Gaye",
+      "album": "What's Goin' On",
+      "notes": "",
+      "playback": "music/01 What's Going On.m4a"
+    },
+    {
+      "id": 13,
+      "title": "Creep",
+      "image": "Images/folder-13.jpg",
+      "artist": "Radiohead",
+      "album": "Creep",
+      "notes": "",
+      "playback": "music/02 Creep.m4a"
+    },
+    {
+      "id": 14,
+      "title": "Yesterday",
+      "image": "Images/folder-14.jpg",
+      "artist": "The Beatles",
+      "album": "Love Songs",
+      "notes": "",
+      "playback": "music/13 Yesterday - Remastered 2009.m4a"
+    },
+    {
+      "id": 15,
+      "title": "Stand By Me",
+      "image": "Images/folder-15.jpg",
+      "artist": "Ben E King",
+      "album": "Single",
+      "notes": "",
+      "playback": "music/07 Stand by Me.m4a"
+    },
+    {
+      "id": 16,
+      "title": "Slow Dancing In The Dark",
+      "image": "Images/folder-16.jpg",
+      "artist": "Joji",
+      "album": "Ballads 1",
+      "notes": "",
+      "playback": "music/02 SLOW DANCING IN THE DARK.m4a"
+    },
+    {
+      "id": 17,
+      "title": "Never Be Like You",
+      "image": "Images/folder-17.jpg",
+      "artist": "Flume",
+      "album": "Skin",
+      "notes": "",
+      "playback": "music/02 Never Be Like You (feat. Kai).m4a"
+    },
+    {
+      "id": 18,
+      "title": "Single Ladies",
+      "image": "Images/folder-18.jpg",
+      "artist": "Beyoncé",
+      "album": "I Am... Sasha Fierce",
+      "notes": "",
+      "playback": "music/01 Single Ladies (Put a Ring on It).m4a"
+    },
+    {
+      "id": 19,
+      "title": "Umbrella",
+      "image": "Images/folder-19.jpg",
+      "artist": "Rihanna",
+      "album": "Good Girl Gone Bad",
+      "notes": "",
+      "playback": "music/01 Umbrella.m4a"
+    },
+    {
+      "id": 20,
+      "title": "Blinding Lights",
+      "image": "Images/folder-20.jpg",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "notes": "",
+      "playback": "music/09 Blinding Lights.m4a"
+    },
+    {
+      "id": 21,
+      "title": "Bad Guy",
+      "image": "Images/folder-21.jpg",
+      "artist": "Billie Eilish",
+      "album": "When We All Fall Asleep, Where Do We Go?",
+      "notes": "",
+      "playback": "music/02 bad guy.m4a"
+    },
+    {
+      "id": 22,
+      "title": "Adore You",
+      "image": "Images/folder-22.jpg",
+      "artist": "Harry Styles",
+      "album": "Fine Line",
+      "notes": "",
+      "playback": "music/03 Adore You.m4a"
+    },
+    {
+      "id": 23,
+      "title": "Hotline Bling",
+      "image": "Images/folder-23.jpg",
+      "artist": "Drake",
+      "album": "Views",
+      "notes": "",
+      "playback": "music/20 Hotline Bling.m4a"
+    },
+    {
+      "id": 24,
+      "title": "Bleach",
+      "image": "Images/folder-24.jpg",
+      "artist": "Brockhampton",
+      "album": "Saturation III",
+      "notes": "",
+      "playback": "music/07 BLEACH.m4a"
+    },
+    {
+      "id": 25,
+      "title": "Paper Planes",
+      "image": "Images/folder-25.jpg",
+      "artist": "M.I.A.",
+      "album": "Kala",
+      "notes": "",
+      "playback": "music/11 Paper Planes.m4a"
+    },
+    {
+      "id": 26,
+      "title": "Time to Pretend",
+      "image": "Images/folder-26.jpg",
+      "artist": "MGMT",
+      "album": "Oracular Spectacular",
+      "notes": "",
+      "playback": "music/01 Time to Pretend.m4a"
+    },
+    {
+      "id": 27,
+      "title": "Get Ur Freak On",
+      "image": "Images/folder-27.jpg",
+      "artist": "Missy Elliott",
+      "album": "Miss E So Addictive",
+      "notes": "",
+      "playback": "music/05 Get Ur Freak On.m4a"
+    },
+    {
+      "id": 28,
+      "title": "Jesus Walks",
+      "image": "Images/folder-28.jpg",
+      "artist": "Kanye West",
+      "album": "The College Dropout",
+      "notes": "",
+      "playback": "music/07 Jesus Walks.m4a"
+    },
+    {
+      "id": 29,
+      "title": "I'm God",
+      "image": "Images/folder-29.jpg",
+      "artist": "Clams Casino",
+      "album": "Instrumental Relics",
+      "notes": "",
+      "playback": "music/01 I'm God.m4a"
+    },
+    {
+      "id": 30,
+      "title": "Bluish",
+      "image": "Images/folder-30.jpg",
+      "artist": "Animal Collective",
+      "album": "Merriweather Post Pavilion",
+      "notes": "",
+      "playback": "music/06 Bluish.m4a"
+    },
+    {
+      "id": 31,
+      "title": "Sam Gellaitry",
+      "image": "Images/folder-31.jpg",
+      "artist": "Long Distance",
+      "album": "Escapism",
+      "notes": "",
+      "playback": "music/04 LONG DISTANCE.m4amusic/03 Mother.m4a"
+    },
+    {
+      "id": 32,
+      "title": "Clint Eastwood",
+      "image": "Images/folder-32.jpg",
+      "artist": "Gorillaz",
+      "album": "Gorillaz",
+      "notes": "",
+      "playback": "music/05 Clint Eastwood.m4a"
+    },
+    {
+      "id": 33,
+      "title": "Mr. Brightside",
+      "image": "Images/folder-33.jpg",
+      "artist": "The Killers",
+      "album": "Hot Fuss",
+      "notes": "",
+      "playback": "music/02 Mr. Brightside.m4a"
+    },
+    {
+      "id": 34,
+      "title": "Flying Lotus",
+      "image": "Images/folder-34.jpg",
+      "artist": "Roberta Flack",
+      "album": "Los Angeles",
+      "notes": "",
+      "playback": "music/13 RobertaFlack.m4a"
+    },
+    {
+      "id": 35,
+      "title": "Beams",
+      "image": "Images/folder-35.jpg",
+      "artist": "Shlohmo",
+      "album": "Dark Red",
+      "notes": "",
+      "playback": "music/11 Beams.m4a"
+    }
+  ]
+}

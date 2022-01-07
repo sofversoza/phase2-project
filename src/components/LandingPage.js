@@ -1,36 +1,30 @@
-// render two buttons login form(renders loginform on click) and sign up form(renders signup form on click)
-// render two buttons login form(renders loginform on click) and sign up form(renders signup form on click)
 import React from 'react';
 import {NavLink} from 'react-router-dom';
-import {Container} from 'react-bootstrap'
+import { Figure, Button, Container } from 'react-bootstrap'
+
 
 
 function LandingPage() {
 
-    const AUTH_URL =
-  "https://accounts.spotify.com/authorize?client_id=bb70477ae18942578967a97b35b07207&response_type=code&redirect_uri=http://localhost:3000&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state"
-
     return (
-        <div>
-
-            <Container>
-                <a className='btn btn-success btn-lg' href={AUTH_URL}>
-                    Login
-                </a>
-            </Container>
-
-
-
-{/* 
-            <NavLink  to='/login' style={{color: "white", textDecoration: 'none', fontSize: '3rem'}}>
-                Log In
+        <Container id="landing-page" className='d-grid h-100'>
+            <Figure className="text-center w-100">
+                <Figure.Image
+                        className="landingpage-logo"
+                        width="350"
+                        height="280"
+                        alt=""
+                        src="Q2.png" 
+                    />
+            </Figure>
+            <h1 className="landingpage-title">Q Music Player & Blog</h1>
+            <h3 className="landingpage-subtitle">Your Thoughts On Your Favorite Music All In One Place</h3> 
+           <NavLink  to='/login' className='btn btn-primary btn-lg' id='loginpage-btn'>
+                Sign in
             </NavLink>
-            <br/>
-            <NavLink to='/sign-up' style={{color: "white", textDecoration: 'none', fontSize: '3rem'}} >
-                Sign Up
-            </NavLink> */}
-        </div>
+        </Container>
     )
 }
+
 
 export default LandingPage
